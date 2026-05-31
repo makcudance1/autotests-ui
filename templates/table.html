@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<style>
+    div {
+        display: block;
+        flex-direction: column;
+        gap: 12px;
+    }
+</style>
+<h1>Узнай</h1>
+
+<form action="index.html" method="post">
+    <div>
+        <input required type="search" name="проверка" placeholder="Поиск...">
+        <button type="submit">Отправить <span style="color: green">данные на сервер</span></button>
+    </div>
+</form>
+<table>
+    <thead>
+    <tr>
+        <td>item 1</td>
+        <td>item 2</td>
+        <td>item 3</td>
+        <td>item 4</td>
+    </tr>
+    <tr>
+        <td>second 1</td>
+        <td>second 2</td>
+        <td>second 3</td>
+        <td>second 4</td>
+    </tr>
+
+    </thead>
+    <tbody>
+    <tr>
+        <td>item 1</td>
+        <td>item 2</td>
+        <td>item 3</td>
+        <td>item 4</td>
+    </tr>
+    <tr>
+        <td>second 1</td>
+        <td>second 2</td>
+        <td>second 3</td>
+        <td>second 4</td>
+    </tr>
+    </tbody>
+
+
+</table>
+<div class="container">
+    <h2>Заголовок блока</h2>
+    <form>
+        <label>
+            <input type="checkbox" placeholder="Поиск..">
+            <button>ЖМЯК</button>
+        </label>
+    </form>
+    <p>Текст внутри блока</p>
+
+</div>
+<input type="checkbox" placeholder="Что это">
+<!-- Пример 1: label оборачивает инпут -->
+<label>
+  Имя:
+  <input type="text" name="name">
+</label>
+<br><br>
+
+<!-- Пример 2: label через for и id -->
+<label for="email">Email:</label>
+<input type="email" id="email" name="email">
+<br><br>
+
+<!-- Пример 3: label + чекбокс -->
+<label>
+  <input type="checkbox" name="agree"> Согласен с условиями
+</label>
+<br><br>
+
+<!-- Пример 4: label + радио -->
+<label>
+  <input type="radio" name="gender" value="male"> Мужской
+</label>
+<label>
+  <input type="radio" name="gender" value="female"> Женский
+</label>
+<br><br>
+
+<!-- Пример 5: всё вместе + кнопки -->
+<label>
+  Логин:
+  <input type="text" name="login">
+</label>
+<br>
+<label>
+  Пароль:
+  <input type="password" name="password">
+</label>
+<br>
+<label>
+  <input type="checkbox" name="remember"> Запомнить меня
+</label>
+<br><br>
+<button type="submit">Войти</button>
+<button type="reset">Очистить</button>
+</body>
+</html>
